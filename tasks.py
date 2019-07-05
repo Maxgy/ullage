@@ -42,4 +42,3 @@ def bench(ctx, opt_level=3):
         ctx.run("target/release/ullage {0} -O{1} -o {2}"
                 .format(bench, opt_level, output))
         ctx.run("time {0}".format(output))
-
